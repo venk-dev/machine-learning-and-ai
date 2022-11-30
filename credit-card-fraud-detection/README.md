@@ -28,6 +28,12 @@ Metrics used:
 
 The project also uses the algorith IsolationForest for anomaly detection.
 
+## Observations
+
+* Using GridSearchCV, it is observed that the best model is XGBoost.
+* Using SMOTE, the data is balanced. For the balanced data, the score has improved for models Random Forest and XGBoost.
+* IsolationForest is proven to be a good algorithm to identify outliers.
+
 
 ## Contents
 
